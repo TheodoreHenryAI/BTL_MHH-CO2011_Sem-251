@@ -1,0 +1,17 @@
+{
+  "found": true,
+  "dead_marking": [
+    0,
+    0,
+    1
+  ],
+  "time_s": 0.00013919999764766544,
+  "bdd_build_time_s": 0.46733769999991637,
+  "bdd_build_memory": {
+    "memory_tracked": true,
+    "tracemalloc_current_mb": 13.482,
+    "tracemalloc_peak_mb": 13.484,
+    "rss_start_mb": 37.512,
+    "rss_final_mb": 60.379
+  }
+}

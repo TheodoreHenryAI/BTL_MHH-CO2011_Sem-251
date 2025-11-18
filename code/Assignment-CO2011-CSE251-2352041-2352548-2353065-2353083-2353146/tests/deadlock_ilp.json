@@ -1,0 +1,17 @@
+{
+  "found": true,
+  "marking": [
+    0,
+    0,
+    1
+  ],
+  "iters": 2,
+  "time_s": 0.089393200003542,
+  "ilp_memory": {
+    "memory_tracked": true,
+    "tracemalloc_current_mb": 0.04,
+    "tracemalloc_peak_mb": 0.066,
+    "rss_start_mb": 60.402,
+    "rss_final_mb": 59.059
+  }
+}

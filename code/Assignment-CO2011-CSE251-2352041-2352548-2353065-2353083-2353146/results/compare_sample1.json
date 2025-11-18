@@ -1,0 +1,55 @@
+{
+  "pnml": "tests\\sample1.pnml",
+  "parser": {
+    "time_s": 0.0007554000039817765,
+    "memory": {
+      "memory_tracked": true,
+      "tracemalloc_current_mb": 1.501,
+      "tracemalloc_peak_mb": 1.587,
+      "rss_start_mb": 32.148,
+      "rss_final_mb": 32.293
+    }
+  },
+  "explicit": {
+    "time_s": 0.0001281000004382804,
+    "memory": {
+      "memory_tracked": true,
+      "tracemalloc_current_mb": 0.001,
+      "tracemalloc_peak_mb": 0.002,
+      "rss_start_mb": 32.297,
+      "rss_final_mb": 32.301
+    },
+    "reachable_count": 3,
+    "enumerated_markings_sample_count": 3
+  },
+  "symbolic_bdd": {
+    "build_time_s": 0.5466807000047993,
+    "build_memory": {
+      "memory_tracked": true,
+      "tracemalloc_current_mb": 14.559,
+      "tracemalloc_peak_mb": 14.561,
+      "rss_start_mb": 32.305,
+      "rss_final_mb": 56.637
+    },
+    "enumeration_time_s": 0.0005087000026833266,
+    "enumeration_memory": {
+      "memory_tracked": true,
+      "tracemalloc_current_mb": 0.008,
+      "tracemalloc_peak_mb": 0.011,
+      "rss_start_mb": 56.637,
+      "rss_final_mb": 56.652
+    },
+    "reachable_count": 3,
+    "enumerated_markings_sample_count": 3
+  },
+  "comparison": {
+    "equal_sets": true,
+    "notes": []
+  },
+  "params": {
+    "bfs_limit": 100000,
+    "bdd_enum_limit": 10000,
+    "mem": true
+  },
+  "timestamp": 1763477017.0656366
+}

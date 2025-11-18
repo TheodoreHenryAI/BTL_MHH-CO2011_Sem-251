@@ -1,0 +1,51 @@
+{
+  "places": [
+    {
+      "id": "p0",
+      "index": 0,
+      "name": "Start",
+      "initial": 1
+    },
+    {
+      "id": "p1",
+      "index": 1,
+      "name": "Middle",
+      "initial": 0
+    },
+    {
+      "id": "p2",
+      "index": 2,
+      "name": "End",
+      "initial": 0
+    }
+  ],
+  "transitions": [
+    {
+      "id": "t0",
+      "index": 0,
+      "name": "toMiddle",
+      "pre": [
+        0
+      ],
+      "post": [
+        1
+      ]
+    },
+    {
+      "id": "t1",
+      "index": 1,
+      "name": "toEnd",
+      "pre": [
+        1
+      ],
+      "post": [
+        2
+      ]
+    }
+  ],
+  "initial_marking": [
+    1,
+    0,
+    0
+  ]
+}

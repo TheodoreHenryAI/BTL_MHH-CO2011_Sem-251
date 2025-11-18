@@ -1,0 +1,70 @@
+{
+  "places": [
+    {
+      "id": "p0",
+      "name": "Start",
+      "index": 0
+    },
+    {
+      "id": "p1",
+      "name": "Middle",
+      "index": 1
+    },
+    {
+      "id": "p2",
+      "name": "End",
+      "index": 2
+    }
+  ],
+  "transitions": [
+    {
+      "id": "t0",
+      "name": "toMiddle",
+      "index": 0
+    },
+    {
+      "id": "t1",
+      "name": "toEnd",
+      "index": 1
+    }
+  ],
+  "initial_marking": [
+    1,
+    0,
+    0
+  ],
+  "reachable_count": 1,
+  "reachable_markings": [
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "edges": [],
+  "bdd_time_s": 0.004458399998839013,
+  "bdd_memory": {
+    "memory_tracked": true,
+    "tracemalloc_current_mb": 0.83,
+    "tracemalloc_peak_mb": 0.833,
+    "rss_start_mb": 49.074,
+    "rss_final_mb": 49.176
+  },
+  "enumeration_time_s": 6.990000838413835e-05,
+  "enumeration_memory": {
+    "memory_tracked": true,
+    "tracemalloc_current_mb": 0.001,
+    "tracemalloc_peak_mb": 0.005,
+    "rss_start_mb": 49.176,
+    "rss_final_mb": 49.176
+  },
+  "debug": {
+    "final_sample_oldvars": {
+      "x0": 0,
+      "x1": 0,
+      "x2": 1
+    },
+    "transitions_with_image_count": 2
+  },
+  "symbolic_time_s": 0.2436946999951033
+}

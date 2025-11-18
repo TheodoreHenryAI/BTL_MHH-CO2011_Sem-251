@@ -1,0 +1,18 @@
+{
+  "method": "enumeration",
+  "optimal_value": 1,
+  "optimal_marking": [
+    1,
+    0,
+    0
+  ],
+  "enumerated": 3,
+  "time_s": 0.00047289999201893806,
+  "enum_memory": {
+    "memory_tracked": true,
+    "tracemalloc_current_mb": 0.588,
+    "tracemalloc_peak_mb": 0.609,
+    "rss_start_mb": 37.855,
+    "rss_final_mb": 37.867
+  }
+}

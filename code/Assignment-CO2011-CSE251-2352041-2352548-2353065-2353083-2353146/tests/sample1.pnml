@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml>
+  <net id="net1">
+    <place id="p0">
+      <name><text>Start</text></name>
+      <initialMarking><text>1</text></initialMarking>
+    </place>
+    <place id="p1"><name><text>Middle</text></name></place>
+    <place id="p2"><name><text>End</text></name></place>
+
+    <transition id="t0"><name><text>toMiddle</text></name></transition>
+    <transition id="t1"><name><text>toEnd</text></name></transition>
+
+    <arc id="a0" source="p0" target="t0"/>
+    <arc id="a1" source="t0" target="p1"/>
+    <arc id="a2" source="p1" target="t1"/>
+    <arc id="a3" source="t1" target="p2"/>
+  </net>
+</pnml>
