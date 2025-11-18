@@ -1,0 +1,20 @@
+# Install ALL required dependencies
+python -m pip install dd pulp psutil
+
+# Task 1: Parse Petri Net (PNML → JSON)
+python src/pnml_parser.py tests/sample1.pnml --out results/sample1_parsed.json --mem
+
+# Task 2: Explicit State Space Exploration (BFS)
+python src/explicit_reachability.py tests/sample1.pnml --out results/explicit_reachability.json --mem
+
+# Task 3: Symbolic Reachability using BDDs 
+python src/symbolic_bdd.py tests/sample1.pnml --out results/symbolic_reachability.json --mem --verbose
+
+# Task 4: Deadlock Detection (BDD-only + ILP+BDD hybrid)
+python src/deadlock_detection.py tests/sample1.pnml --out_bdd results/deadlock_bdd.json --out_ilp results/deadlock_ilp.json --mem --verbose
+
+# Task 5: Optimization over Reachable Markings
+python src/optimization.py tests/sample1.pnml --out results/optimization.json --mem --verbose
+
+# Extra Performance Comparision: Explicit vs Symbolic
+python src/compare_performances.py tests/sample1.pnml --out results/performance_comparison.json --mem --verbose
